@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\api_autentica\u00E7\u00E3otoken\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\services\\authservices\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\services\\authservices\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\services\\authservices\\iauthinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\services\\authservices\\iauthinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\services\\senhaservice\\isenhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\services\\senhaservice\\isenhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\services\\senhaservice\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\services\\senhaservice\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|c:\\projects\\teste_valid\\chamadox\\chamadox\\api_autentica\u00E7\u00E3otoken\\dtos\\usuariocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE7BD8B-7D88-4327-BC26-A04F6DC9681A}|Api_autentica\u00E7\u00E3otoken\\Api_autentica\u00E7\u00E3otoken.csproj|solutionrelative:api_autentica\u00E7\u00E3otoken\\dtos\\usuariocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Models\\Response.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Models\\Response.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Models\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:27:32.875Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Program.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Program.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Program.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:14:16.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISenhaService.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\ISenhaService.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\ISenhaService.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\ISenhaService.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\ISenhaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:51:08.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SenhaService.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\SenhaService.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\SenhaService.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\SenhaService.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Services\\SenhaService\\SenhaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:49:34.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\AuthServices.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\AuthServices.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\AuthServices.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\AuthServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:24:16.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthInterface.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\IAuthInterface.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\IAuthInterface.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\IAuthInterface.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Services\\AuthServices\\IAuthInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:23:37.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioCriacaoDto.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Dtos\\UsuarioCriacaoDto.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Dtos\\UsuarioCriacaoDto.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Dtos\\UsuarioCriacaoDto.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Dtos\\UsuarioCriacaoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:30:42.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Api_autentica\u00E7\u00E3otoken\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projects\\Teste_Valid\\ChamadoX\\ChamadoX\\Api_autentica\u00E7\u00E3otoken\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Api_autentica\u00E7\u00E3otoken\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:27:47.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

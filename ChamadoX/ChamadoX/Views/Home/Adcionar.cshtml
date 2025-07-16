@@ -1,0 +1,40 @@
+﻿@model TiketModel
+
+<h2>Novo Tiket</h2>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Adcionar" asp-controller="Home" method="post">
+
+    <div class="mb-3">
+        <label asp-for="Descricao" class="form-label"></label>
+        <input asp-for="Descricao" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <labelasp-for ="CategoriaId" class=" form-label">Categoria</labelasp-for>
+        <select asp-for="CategoriaId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewBag.Categorias, "CategoriaId", "Nome"))">
+            <option value=""></option>
+        </select>
+
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DataDeVencimento" class="form-label">Data de Vencimento</label>
+        <input type="text" asp-for="DataDeVencimento" class="form-control" />
+    </div>
+   
+    <div class="mb-3">
+        <label class=" form-label">Situação</label>
+        <select asp-for="StatusId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewBag.Status, "StatusId", "Nome"))">
+
+        </select>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Adcionar</button>
+    <a asp-action="Index" class="btn btn-primary">Cancelar</a>
+</form>

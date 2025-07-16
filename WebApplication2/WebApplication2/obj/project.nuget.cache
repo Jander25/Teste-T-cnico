@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dwb8o0r6KPlBhJa3usW5pswlEtZfeU/M6Iuel7nrWD7cxI/AVNR6a8coHhzFE/Ug6UOHzhgbbG5NsZ6CMoHUig==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Teste_Valid\\ChamadoX\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\janua\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.3\\microsoft.dotnet.ilcompiler.8.0.3.nupkg.sha512",
+    "C:\\Users\\janua\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.3\\microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
+    "C:\\Users\\janua\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.3\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

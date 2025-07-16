@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "rabbitmq1": {
+      "restored": true,
+      "restoreTime": "2025-07-15T13:25:14.0539005Z"
+    },
+    "postgresql1": {
+      "restored": true,
+      "restoreTime": "2025-07-15T13:25:48.8006775Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2025-07-15T13:25:09.355936Z"
+    }
+  },
+  "parameters": {}
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "rabbitmq1": {
+      "type": "rabbitmq",
+      "connectionId": "Logs",
+      "dynamicId": null
+    },
+    "postgresql1": {
+      "type": "postgresql",
+      "connectionId": "BaseDados",
+      "dynamicId": null
+    }
+  }
+}

@@ -1,0 +1,104 @@
+﻿@model IEnumerable<TiketModel>
+
+<div class="row">
+    <div class=" col-md-2">
+            
+            <form asp-action="Filtrar" asp-controller="Home" method="post">
+                
+                <div class="mb-3">
+                    <label class=" form-label">Categoria</label>
+                <select name="filtro"
+                        class="form-select"
+                        asp-items="@(new SelectList(ViewBag.Categorias, "CategoriaId", "Nome", ViewBag.SelectedCategoria))"
+                    >
+                        <option value="todos">Todos</option>
+                    </select>
+
+                </div>
+
+                <div class="mb-3">
+                <label class=" form-label">Data de Vencimento</label>
+                <select name="filtro"
+                        class="form-select"
+                        asp-items="@(new SelectList(ViewBag.Vencimentovalores, "Key", "Value", ViewBag.SelectedVencimento))">
+                    <option value="todos">Todos</option>
+                </select>
+
+            </div>
+
+                <div class="mb-3">
+                <label class=" form-label">Situação</label>
+                <select name="filtro"
+                        class="form-select"
+                        asp-items="@(new SelectList(ViewBag.Status, "StatusId", "Nome", ViewBag.SelectedStatus))">
+                    <option value="todos">Todos</option>
+                </select>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary" >Filtrar</button>
+                <a asp-action="Index" asp-route-id ="" class="btn btn-primary">Limpar</a>
+            </form>
+
+
+
+    </div>
+    <div class="col-md-10">
+        <form asp-action="MarcarCompleto" method="post" asp-route-id="@ViewBag.Filtros.FiltroString">
+
+            <table class="table table-bordered table-striped mt-2">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Categoria</th>
+                        <th>Data de Vencimento</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    @foreach(TiketModel tiket in Model)
+                    {
+                        string atrasado = tiket.Atrasado ? "bg-warning" : "";
+                        <tr>
+                            <td>@tiket.Descricao</td>
+                            <td>@tiket.CategoriaModel.Nome</td>
+                            <td class="@atrasado" >@tiket.DataDeVencimento?.ToShortDateString()</td>
+                            <td class ="@atrasado">@tiket.StatusModel.Nome</td>
+                            
+                            <td>
+                                @if(tiket.StatusId == "aberto")
+                                {
+                                    <button type="submit" class="btn btn-primary btn-sm"
+                                        name="@nameof(TiketModel.Id)"
+                                        value="@tiket.Id"
+                                    >
+                                    Completar
+                                </button>
+                                }
+
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+        </form>
+
+        <form asp-action="´DeletarFinalizados" method="post" asp-route-id="@ViewBag.Filtros.FiltroString">
+            <a asp-action="Adcionar" asp-controller="Home" class="btn btn-success">Adcionar Tiket</a>
+            <button type="submit" class="btn btn-danger">Deletar Tikets Finalizados</button>
+        </form>
+
+    </div>
+</div>
+
+
+
+
+
+
